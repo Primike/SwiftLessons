@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginPageView" customModule="Learnings" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="YaT-zs-9Ip"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.029999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="WEe-MO-I4z">
+                    <rect key="frame" x="0.0" y="179" width="390" height="486"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-0a-pM5">
+                    <rect key="frame" x="155.66666666666666" y="122" width="30" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="WUa-An-RKv"/>
+                        <constraint firstAttribute="width" constant="30" id="g4h-L4-TgN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X0-Fa-6UQ">
+                    <rect key="frame" x="189.66666666666666" y="127" width="45" height="30"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Noob!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWn-Nt-CS1">
+                    <rect key="frame" x="147.66666666666666" y="212" width="94.666666666666657" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In a few steps, you can buy, send and save doge with just a phone number." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haF-Rf-fsi">
+                    <rect key="frame" x="45" y="258" width="300" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="Jdh-1q-Jdy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="9X0-Fa-6UQ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="80" id="8IF-jO-EHc"/>
+                <constraint firstItem="XWn-Nt-CS1" firstAttribute="top" secondItem="F9S-0a-pM5" secondAttribute="bottom" constant="50" id="HyY-tO-wVp"/>
+                <constraint firstItem="WEe-MO-I4z" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="132" id="MYE-vM-phJ"/>
+                <constraint firstItem="9X0-Fa-6UQ" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" constant="17" id="WU4-ST-rW7"/>
+                <constraint firstItem="F9S-0a-pM5" firstAttribute="centerY" secondItem="9X0-Fa-6UQ" secondAttribute="centerY" id="Xp6-vp-KcB"/>
+                <constraint firstItem="haF-Rf-fsi" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="aQk-2d-rDu"/>
+                <constraint firstItem="XWn-Nt-CS1" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="cnk-vU-pXY"/>
+                <constraint firstItem="haF-Rf-fsi" firstAttribute="top" secondItem="XWn-Nt-CS1" secondAttribute="bottom" constant="25" id="dM7-3V-uqL"/>
+                <constraint firstItem="9X0-Fa-6UQ" firstAttribute="leading" secondItem="F9S-0a-pM5" secondAttribute="trailing" constant="4" id="de7-Li-YkA"/>
+                <constraint firstItem="WEe-MO-I4z" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="e7t-uf-LeG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WEe-MO-I4z" secondAttribute="bottom" constant="145" id="ltt-q1-V87"/>
+                <constraint firstItem="WEe-MO-I4z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="s7X-IA-WzN"/>
+            </constraints>
+            <point key="canvasLocation" x="38.46153846153846" y="20.616113744075829"/>
+        </view>
+        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="N5o-ce-Cfq">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="628" y="-21"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="logo1" width="626" height="626"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
