@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         button.setTitle("button1", for: .normal)
         button.layer.cornerRadius = 25
         button.backgroundColor = .orange
-        button.addTarget(self, action: #selector(button1Tapped), for: .primaryActionTriggered)
+        button.addTarget(ViewController.self, action: #selector(button1Tapped), for: .primaryActionTriggered)
         
         return button
 
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         button.setTitle("button2", for: .normal)
         button.layer.cornerRadius = 25
         button.backgroundColor = .orange
-        button.addTarget(self, action: #selector(button2Tapped), for: .primaryActionTriggered)
+        button.addTarget(ViewController.self, action: #selector(button2Tapped), for: .primaryActionTriggered)
 
         return button
 
